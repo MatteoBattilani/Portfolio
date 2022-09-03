@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- border: 1px solid black; 
+ /*border: 1px solid black; */
 }
 
 .main-container{
@@ -20,7 +20,7 @@
 
 .logo-container{
   display: inline-block;
-  min-width: 100px;
+  width: 100px;
   height: 50px;
   background-image: url("/assets/images/logo.png");
   background-size: cover;
@@ -62,15 +62,30 @@ nav a:hover:not(.logo-container){
 
 /*MAIN*/
 
-main h1{
-  font-family: serif;
+.title{
+  font-family: 'Bitter', serif;
   font-size: 80px;
+  font-weight: 400;
+  line-height: 70px;
+  color: #0f1b61;
+}
+
+.subtitle{
+  font-family: 'Bitter', serif;
+  font-size: 24px;
   font-weight: 400;
   color: #0f1b61;
 }
 
-#name{
-  font-weight: 800;
+
+.dot-header__dots .dots {
+  height: 100%;
+  width: 100%;
+}
+
+.dots {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 22.9 22.9' style='enable-background:new 0 0 22.9 22.9;' xml:space='preserve'%3E%3Ccircle fill='%23aadcec' class='st0' cx='5.7' cy='5.9' r='3'/%3E%3Ccircle fill='%23aadcec' class='st0' cx='17.2' cy='17.2' r='3'/%3E%3C/svg%3E%0A");
+  background-size: 12px;
 }
 
 .poba{
