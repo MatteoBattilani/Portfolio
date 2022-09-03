@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- /* border: 1px solid black; */
+ border: 1px solid black; 
 }
 
 .main-container{
@@ -10,6 +10,13 @@
   padding: 30px 50px;
   background-color: #f3f8fc;
 }
+
+
+
+
+
+
+/*NAVBAR*/
 
 .logo-container{
   display: inline-block;
@@ -26,7 +33,7 @@ nav a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 12px;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
 
   box-shadow: inset 0 0 0 0 #54b3d6;
   margin: 0 -.25rem;
@@ -35,7 +42,7 @@ nav a {
 }
 
 nav a:hover:not(.logo-container){    
-  box-shadow: inset 100px 0 0 0 #0f1b61;
+  box-shadow: inset 110px 0 0 0 #0f1b61;
   color: white;
 }
 
@@ -48,6 +55,24 @@ nav a:hover:not(.logo-container){
   background: #919795;
 }
 
-.treca{
+
+
+
+
+
+/*MAIN*/
+
+main h1{
+  font-family: serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: #0f1b61;
+}
+
+#name{
+  font-weight: 800;
+}
+
+.poba{
   background-color: green;
 }
