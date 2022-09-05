@@ -9,6 +9,9 @@
   margin: 20px;
   padding: 30px 50px;
   background-color: #f3f8fc;
+
+  font-family: 'Bitter', serif;
+  color: #0f1b61;
 }
 
 
@@ -26,6 +29,8 @@
   background-size: cover;
   background-position: center;
 }
+
+
 
 nav a {
   text-decoration: none;
@@ -60,23 +65,34 @@ nav a:hover:not(.logo-container){
 
 
 
-/*MAIN*/
+/*FONTS*/
 
 .title{
-  font-family: 'Bitter', serif;
   font-size: 80px;
   font-weight: 400;
   line-height: 70px;
-  color: #0f1b61;
 }
 
 .subtitle{
-  font-family: 'Bitter', serif;
   font-size: 24px;
   font-weight: 400;
-  color: #0f1b61;
 }
 
+.paragraph-title{
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 68px;
+}
+
+.paragraph{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+
+/*MAIN*/
 
 .dot-header__dots .dots {
   height: 100%;
@@ -88,6 +104,13 @@ nav a:hover:not(.logo-container){
   background-size: 12px;
 }
 
+.stripes {
+  background-image: url('/assets/images/line.svg');
+  background-size: 11px;
+  /*opacity: .6;*/
+}
+
 .poba{
   background-color: green;
 }
+
