@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- /*border: 1px solid black; */
+ /*border: 1px solid black;*/
 }
 
 .main-container{
@@ -32,7 +32,7 @@
 
 nav{
   position:fixed;
-  width: 95vw;
+  width: 100%;
 }
 
 nav a, nav button {
@@ -57,16 +57,16 @@ nav a:hover:not(.logo-container), nav button:hover{
 
 
 
-
+/*
 .menu-container:before{
   content: "";
   display: inline-block;
   width: 1.5px;
   height: 26px;
-  margin-right: 16px;
+  margin-right: 56px;
   background: #919795;
 }
-
+*/
 
 
 
@@ -96,6 +96,10 @@ nav a:hover:not(.logo-container), nav button:hover{
   font-weight: 400;
 }
 
+.dot {
+  color: #73bbc5;
+}
+
 
 
 
@@ -103,6 +107,14 @@ nav a:hover:not(.logo-container), nav button:hover{
 
 main{
   margin-top: 100px;
+}
+
+hr{
+  border: none;
+  height: 5px;
+  width: 10%;
+ 
+  background-color: #73bbc5;
 }
 
 
@@ -122,8 +134,54 @@ main{
   /*opacity: .6;*/
 }
 
-.poba{
-  background-color: green;
+
+
+
+/*SKILLS*/
+
+
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.bar-container {
+  width: 80%;
+  height: 50%;
+  background-color: #ddd;
+  border-radius: 30px;
+}
+
+.image-skill-container{
+  min-width:70px;
+  height: 70px;
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+  
 }
 
 
+.html {width: 90%; background-color: #E44D26; border-radius: 30px;}
+.css {width: 80%; background-color: #2196F3; border-radius: 30px;}
+.java {width: 65%; background-color: #f4cb36; border-radius: 30px;}
+.python {width: 60%; background-color: #139019; border-radius: 30px;}
+
+#html-image{
+  background-image: url("/assets/images/HTML.svg");
+}
+
+#css-image{
+  background-image: url("/assets/images/CSS.svg");
+}
+
+#java-image{
+  background-image: url("/assets/images/Java.svg");
+}
+
+#python-image{
+  background-image: url("/assets/images/Python.svg");
+}
