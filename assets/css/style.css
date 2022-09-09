@@ -144,7 +144,7 @@ hr{
 .skills {
   text-align: right;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 6px;
   color: white;
 }
 
@@ -153,6 +153,10 @@ hr{
   height: 50%;
   background-color: #ddd;
   border-radius: 30px;
+}
+
+#spring-bar-container{
+  height: 60%;
 }
 
 .image-skill-container{
@@ -165,10 +169,15 @@ hr{
 }
 
 
-.html {width: 90%; background-color: #E44D26; border-radius: 30px;}
-.css {width: 80%; background-color: #2196F3; border-radius: 30px;}
-.java {width: 65%; background-color: #f4cb36; border-radius: 30px;}
-.python {width: 60%; background-color: #139019; border-radius: 30px;}
+.html {width: 85%; background-color: #F16529; border-radius: 30px;}
+.css {width: 65%; background-color: #2753E7; border-radius: 30px;}
+.java {width: 75%; background-color: #EA2D2E; border-radius: 30px;}
+.spring {width: 50%; background-color: #77BC1F; border-radius: 30px;}
+.python {width: 50%; background-color: #FFDA4C; border-radius: 30px;}
+.django {width: 60%; background-color: #003A2B; border-radius: 30px;}
+.sql {width: 65%; background-color: #3399DB; border-radius: 30px;}
+.superset {width: 80%; background-color: #00CABB; border-radius: 30px;}
+.ethereum {width: 30%; background-color: #8B93B4; border-radius: 30px;}
 
 #html-image{
   background-image: url("/assets/images/HTML.svg");
@@ -184,4 +193,28 @@ hr{
 
 #python-image{
   background-image: url("/assets/images/Python.svg");
+}
+
+#sql-image{
+  background-image: url("/assets/images/275-2753287_sql.png");
+}
+
+#superset-image{
+  background-image: url("/assets/images/Superset.png");
+  min-width: 100px;
+  margin-left: -12px;
+  background-size: cover ;
+}
+
+#spring-image{
+  background-image: url("/assets/images/Spring.png");
+  max-height: 60px;
+}
+
+#django-image{
+  background-image: url("/assets/images/Django.png");
+}
+
+#ethereum-image{
+  background-image: url("/assets/images/Ethereum.svg");
 }
