@@ -145,7 +145,6 @@ hr{
   background-size:contain;
   background-position:center;
   background-repeat: no-repeat;
-  
 }
 
 /*colored skills bars*/
@@ -220,5 +219,8 @@ hr{
 
 
 
+/*-----------------------------PORTFOLIO-----------------------------*/
 
-
+.projects-container, .project-container{
+  border: 1px solid black;
+}
