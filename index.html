@@ -42,11 +42,12 @@
             <div class="menu-container d-flex align-items-center ms-3">
               <div><button class="bg-transparent" id="menu" onclick="toggleMenu()">MENU</button></div>
               <div id="menu-box" style="display: none;">
-                <a class="ms-3" href="/contacts.html">CONTACTS</a>
-                <a class="ms-3" href="/portfolio/">PORTFOLIO</a> 
+                <a class="ms-3" href="#skills">SKILLS</a>
+                <a class="ms-3" href="#portfolio">PORTFOLIO</a> 
+                <a class="ms-3" href="#contacts">CONTACTS</a>
               </div>
             </div>
-            <div class="ms-3 me-5 pe-5"><a href="/portfolio/">HIRE ME</a></div>
+            <div class="ms-3 me-5 pe-5"><a target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ...">HIRE ME</a></div>
           </div>
       </div>
     </nav>
@@ -70,29 +71,28 @@
       <!-- ABOUT ME SECTION--> 
 
       <div class="row mt-5">
-        <span class="paragraph-title">About Me<span class="dot">.</span></span>
+        <span class="paragraph-title" id="about-me">About Me<span class="dot">.</span></span>
       </div>
       <hr>
       <div class="row mt-4">
-        <p class="paragraph">I'm a <strong>web developer</strong>, mainly <strong>backend</strong> oriented. I use languages such as <strong>Java</strong> and <strong>Python</strong> on a daily basis, 
-          interact with <strong> relational databases</strong> (such as MySQL, MariaDB) and <strong>non-relational databases</strong>  (MongoDB). I work with <strong>DBMS</strong> like SQL Developer and DBeaver.
-          Within personal projects, I experiment with modern technologies such as the <strong>Ethereum blockchain</strong>.
-        TALK ABOUT SUPERSET AND INSERT A COUNTER FOR AGES OF EXPERIENCE.
+        <p class="paragraph">I've been a <strong>web developer</strong> for <span id="years"></span> years. I'm mainly <strong>backend</strong> oriented and I use languages such as <strong>Java</strong> and <strong>Python</strong> on a daily basis. Also 
+          I interact with <strong> relational databases</strong> (such as MySQL, MariaDB) and <strong>non-relational databases</strong>  (MongoDB). I work with <strong>DBMS</strong> like SQL Developer and DBeaver.
+          I can use Apache Superset in the field of <strong>Business Intelligence</strong> to create descriptive analysis charts. Within personal projects, I experiment with modern technologies such as the <strong>Ethereum blockchain</strong>.
         </p>
         <p class="paragraph">
-          Dynamism and curiosity are what drives me to train and inform myself on a daily basis, to ensure maximum professionalism in what I love to do. 
+          Dynamism and curiosity are what drives me to train and inform myself on a daily basis, to ensure maximum professionalism in what I love to do. I am a type of person who loves learning new things and listens carefully to others. I love working in a team and caring for people. I firmly believe that <strong>good relationship management is the key to excellent results</strong>.
         </p>
       </div>
 
       <!-- MY SKILLS SECTION-->
 
       <div class="row mt-5">
-        <span class="paragraph-title">My Skills<span class="dot">.</span></span>
+        <span class="paragraph-title" id="skills">My Skills<span class="dot">.</span></span>
       </div>
       <hr>
-      <div class="row mt-4">
+      <div class="row mt-5">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container" id="html-image"></div>
+          <div><a class="image-skill-container" id="html-image" target="_blank" href="https://en.wikipedia.org/wiki/HTML"></a></div>
           <div class="bar-container ms-5">
             <div class="skills html">85%</div>
           </div>
@@ -100,15 +100,15 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container" id="css-image"></div>
+          <div><a class="image-skill-container" id="css-image" target="_blank" href="https://en.wikipedia.org/wiki/CSS"></a></div>
           <div class="bar-container ms-5">
-            <div class="skills css">65%</div>
+            <div class="skills css">50%</div>
           </div>
         </div>
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container" id="java-image"></div>
+          <div><a class="image-skill-container" id="java-image" target="_blank" href="https://en.wikipedia.org/wiki/Java_(programming_language)"></a></div>
           <div class="bar-container ms-5">
             <div class="skills java">75%</div>
           </div>
@@ -116,7 +116,7 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container" id="spring-image"></div>
+          <div><a class="image-skill-container" id="spring-image" target="_blank" href="https://en.wikipedia.org/wiki/Spring_Framework"></a></div>
           <div class="bar-container ms-5" id="spring-bar-container">
             <div class="skills spring">50%</div>
           </div>
@@ -124,7 +124,7 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container ms-1" id="python-image"></div>
+          <div><a class="image-skill-container ms-1" id="python-image" target="_blank" href="https://en.wikipedia.org/wiki/Python_(programming_language)" ></a></div>
           <div class="bar-container ms-5">
             <div class="skills python">50%</div>
           </div>
@@ -132,7 +132,7 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container ms-1" id="django-image"></div>
+          <div><a class="image-skill-container ms-1" id="django-image" target="_blank" href="https://en.wikipedia.org/wiki/Django_(web_framework)" ></a></div>
           <div class="bar-container ms-5">
             <div class="skills django">60%</div>
           </div>
@@ -140,7 +140,7 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container" id="sql-image"></div>
+          <div><a class="image-skill-container" id="sql-image" target="_blank" href="https://en.wikipedia.org/wiki/SQL"></a></div>
           <div class="bar-container ms-5">
             <div class="skills sql">65%</div>
           </div>
@@ -148,7 +148,7 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container me-2" id="superset-image"></div>
+          <div><a class="image-skill-container me-2" id="superset-image" target="_blank" href="https://en.wikipedia.org/wiki/Apache_Superset"></a></div>
           <div class="bar-container ms-4">
             <div class="skills superset">80%</div>
           </div>
@@ -156,18 +156,59 @@
       </div>
       <div class="row mt-4">
         <div class="d-flex align-items-center">
-          <div class="image-skill-container me-2" id="ethereum-image"></div>
-          <div class="bar-container ms-4">
+          <div><a class="image-skill-container" id="ethereum-image" target="_blank" href="https://en.wikipedia.org/wiki/Ethereum"></a></div>
+          <div class="bar-container ms-5">
             <div class="skills ethereum">30%</div>
           </div>
         </div>
       </div>
 
 
+      <!-- PORTFOLIO SECTION-->
+
+      <div class="row mt-5 pt-4">
+        <span class="paragraph-title" id="portfolio">Portfolio<span class="dot">.</span></span>
+      </div>
+      <hr>
+      <div class="row paragraph mt-4">    
+        <p>
+          Although I am working full time, I am a member of the <strong><a target="_blank" href="https://www.start2impact.it/">Start2impact</a></strong> community where I study daily and realise practical projects that are corrected by the best professionals in the field.
+          I have just started studying the front-end, because although I am a backend programmer, I want to be able to acquire full-stack skills. This site you are reading, for example, is my first practical test with HTML and CSS.
+        </p>
+        <p>
+          The following projects are personal and carried out in my spare time and do not represent the developer work I do during working hours:
+        </p>
+
+        <!-- PORTFOLIO SECTION -- File Organizer -->
+
+
+ 
+
+
+
+       
+      </div>
+
+
+      
+      <!-- CONTACTS SECTION-->
+
+      <div class="row mt-5 pt-4">
+        <span class="paragraph-title" id="contacts">Contacts<span class="dot">.</span></span>
+      </div>
+      <hr>
+      <div class="row mt-4">    
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="me-5"><a class="image-contact-container img-fluid" id="linkedin-image" target="_blank" href="https://www.linkedin.com/in/matteobattilani/"></a></div>
+          <div class="me-5"><a class="image-contact-container img-fluid" id="gmail-image" target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ..."></a></div>
+          <div class="me-5"><a class="image-contact-container img-fluid" id="github-image" target="_blank" href="https://github.com/MatteoBattilani"></a></div>
+        </div>  
+      </div>
 
 
 
 
+COME FARE SPARIRE GLI ID DALL'URL, USARE I TRICK DEL VIDEO DI S2I DI QUELLO BRAVO SU YOUTUBE LO TROVO
 
       
     </main>

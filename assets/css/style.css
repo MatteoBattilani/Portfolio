@@ -5,6 +5,11 @@
  /*border: 1px solid black;*/
 }
 
+a{
+  text-decoration: none;
+  color: #0f1b61;
+}
+
 .main-container{
   margin: 20px;
   padding: 30px 50px;
@@ -15,11 +20,7 @@
 }
 
 
-
-
-
-
-/*NAVBAR*/
+/*-------------------------------NAVBAR SECTION-----------------------------------*/
 
 .logo-container{
   display: inline-block;
@@ -36,7 +37,6 @@ nav{
 }
 
 nav a, nav button {
-  text-decoration: none;
   color: #0f1b61;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -55,24 +55,7 @@ nav a:hover:not(.logo-container), nav button:hover{
 }
 
 
-
-
-/*
-.menu-container:before{
-  content: "";
-  display: inline-block;
-  width: 1.5px;
-  height: 26px;
-  margin-right: 56px;
-  background: #919795;
-}
-*/
-
-
-
-
-
-/*FONTS*/
+/*--------------------------------FONTS-------------------------------------------*/
 
 .title{
   font-size: 80px;
@@ -101,9 +84,7 @@ nav a:hover:not(.logo-container), nav button:hover{
 }
 
 
-
-
-/*MAIN*/
+/*-----------------------MAIN SECTION---------------------------*/
 
 main{
   margin-top: 100px;
@@ -118,14 +99,15 @@ hr{
 }
 
 
-.dot-header__dots .dots {
+.dot-skills-section .dots {
   height: 100%;
   width: 100%;
 }
 
 .dots {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 22.9 22.9' style='enable-background:new 0 0 22.9 22.9;' xml:space='preserve'%3E%3Ccircle fill='%23aadcec' class='st0' cx='5.7' cy='5.9' r='3'/%3E%3Ccircle fill='%23aadcec' class='st0' cx='17.2' cy='17.2' r='3'/%3E%3C/svg%3E%0A");
-  background-size: 12px;
+  background-image: url("/assets/images/point.svg");
+  background-size: 30px;
+  opacity: .6;
 }
 
 .stripes {
@@ -135,10 +117,7 @@ hr{
 }
 
 
-
-
-/*SKILLS*/
-
+/*-----------------------------SKILLS-----------------------------*/
 
 
 .skills {
@@ -156,10 +135,11 @@ hr{
 }
 
 #spring-bar-container{
-  height: 60%;
+  height: 58%;
 }
 
-.image-skill-container{
+.image-skill-container, .image-contact-container{
+  display: block;
   min-width:70px;
   height: 70px;
   background-size:contain;
@@ -168,9 +148,10 @@ hr{
   
 }
 
+/*colored skills bars*/
 
 .html {width: 85%; background-color: #F16529; border-radius: 30px;}
-.css {width: 65%; background-color: #2753E7; border-radius: 30px;}
+.css {width: 50%; background-color: #2753E7; border-radius: 30px;}
 .java {width: 75%; background-color: #EA2D2E; border-radius: 30px;}
 .spring {width: 50%; background-color: #77BC1F; border-radius: 30px;}
 .python {width: 50%; background-color: #FFDA4C; border-radius: 30px;}
@@ -178,6 +159,8 @@ hr{
 .sql {width: 65%; background-color: #3399DB; border-radius: 30px;}
 .superset {width: 80%; background-color: #00CABB; border-radius: 30px;}
 .ethereum {width: 30%; background-color: #8B93B4; border-radius: 30px;}
+
+/*skills's logos*/
 
 #html-image{
   background-image: url("/assets/images/HTML.svg");
@@ -218,3 +201,24 @@ hr{
 #ethereum-image{
   background-image: url("/assets/images/Ethereum.svg");
 }
+
+/*contacts' logos*/
+
+#linkedin-image{
+  background-image: url("/assets/images/LinkedIn.svg");
+}
+
+#gmail-image{
+  background-image: url("/assets/images/Gmail.svg");
+}
+
+#github-image{
+  background-image: url("/assets/images/github.svg");
+}
+
+
+
+
+
+
+

@@ -8,3 +8,11 @@ function toggleMenu() {
      menuBox.style.display = "block";
    }
  }
+
+ // Function that calculates my years of work at every page refresh 
+ window.onload = function getYearsOfWork(){
+    var startYearWork= 2020;
+    var currentYear= new Date().getFullYear();
+    var yearsOfWork= currentYear - startYearWork;
+    document.getElementById("years").innerHTML = yearsOfWork;
+ }
