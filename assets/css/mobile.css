@@ -1,3 +1,11 @@
+@media screen and (max-width:576px){
+  #hire-me{
+    display: none;
+  }
+
+}
+
+
 @media screen and (max-width:991px){
 
   
@@ -19,6 +27,9 @@
   min-width: 50%;
 }
 
+#hire-me{
+  display: none;
+}
 
 }
 

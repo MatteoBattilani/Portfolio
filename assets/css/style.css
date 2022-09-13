@@ -87,7 +87,7 @@ nav a:hover:not(.logo-container), nav button:hover{
 /*-----------------------MAIN SECTION---------------------------*/
 
 main{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 hr{
@@ -228,3 +228,28 @@ hr{
 .project-description{
   height: 60%;
 }
+
+
+/*-----------------------------CUSTOM SCROLLBAR-----------------------------*/
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F3F8FC
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #AADCEC
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f1b61;
+}
+

@@ -16,3 +16,6 @@ function toggleMenu() {
     var yearsOfWork= currentYear - startYearWork;
     document.getElementById("years").innerHTML = yearsOfWork;
  }
+
+ // Function that hides the id from the url bar
+ window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
