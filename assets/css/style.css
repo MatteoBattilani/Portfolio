@@ -221,6 +221,10 @@ hr{
 
 /*-----------------------------PORTFOLIO-----------------------------*/
 
-.projects-container, .project-container{
+.project-container{
   border: 1px solid black;
+}
+
+.project-description{
+  height: 60%;
 }
