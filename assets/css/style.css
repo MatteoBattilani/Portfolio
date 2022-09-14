@@ -12,7 +12,7 @@ a{
 
 .main-container{
   margin: 20px;
-  padding: 30px 50px;
+  padding: 30px 30px;
   background-color: #f3f8fc;
 
   font-family: 'Bitter', serif;
@@ -128,18 +128,14 @@ hr{
 }
 
 .bar-container {
-  width: 80%;
-  height: 50%;
+  width: 85%;
   background-color: #ddd;
-  border-radius: 30px;
-}
-
-#spring-bar-container{
-  height: 58%;
+  border-radius: 20px;
 }
 
 .image-skill-container, .image-contact-container{
   display: block;
+  min-width: 70px;
   width:70px;
   height: 70px;
   background-size:contain;
