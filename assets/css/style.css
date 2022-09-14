@@ -140,7 +140,7 @@ hr{
 
 .image-skill-container, .image-contact-container{
   display: block;
-  min-width:70px;
+  width:70px;
   height: 70px;
   background-size:contain;
   background-position:center;
@@ -217,16 +217,23 @@ hr{
 
 
 
-
-
 /*-----------------------------PORTFOLIO-----------------------------*/
 
 .project-container{
-  border: 1px solid black;
+  border: 5px;
+  border-color: #AADCEC;
+  border-style: groove ;
+  border-radius: 20px;
 }
 
 .project-description{
   height: 60%;
+}
+
+/*portfolio' images*/
+
+#book-image{
+  background-image: url("/assets/images/book.png");
 }
 
 
