@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- /* border: 1px solid black;*/
+ /*border: 1px solid black;*/
 }
 
 a{
@@ -12,7 +12,7 @@ a{
 
 .main-container{
   margin: 20px;
-  padding: 30px 30px;
+  padding: 20px 50px;
   background-color: #f3f8fc;
 
   font-family: 'Bitter', serif;
@@ -90,7 +90,7 @@ main{
   margin-top: 50px;
 }
 
-hr{
+main hr{
   border: none;
   height: 5px;
   width: 10%;
@@ -114,6 +114,10 @@ hr{
   background-image: url('/assets/images/line.svg');
   background-size: 11px;
   /*opacity: .6;*/
+}
+
+.profile-pic{
+  max-width: 300px;
 }
 
 

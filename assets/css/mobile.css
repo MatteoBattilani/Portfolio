@@ -23,6 +23,15 @@
     font-weight: 700;
     line-height: 68px;
   }
+
+  .paragraph{
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .profile-pic{
+    max-width: 200px;
+  }
 }
 
 
@@ -37,11 +46,6 @@
 
 .avatar{
   flex-direction: column-reverse;
-}
-
-
-.profile-pic{
-  min-width: 40%;
 }
 
 #hire-me{
@@ -71,11 +75,6 @@
 
 .subtitle{
   font-size: 20px;
-  font-weight: 400;
-}
-
-.paragraph{
-  font-size: 15px;
   font-weight: 400;
 }
 
