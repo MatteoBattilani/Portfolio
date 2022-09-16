@@ -36,22 +36,23 @@
 
     <!-- NAVBAR SECTION--> 
 
-    <nav class="row">
+    <nav class="position-fixed">
       <div class="d-flex align-items-center">
-          <div><a class="logo-container img-fluid col-1" href="/"></a></div>
+          <div><a class="logo-container" href="/"></a></div>
           <div class="d-flex col-11 justify-content-sm-between">
             <div class="menu-container d-flex align-items-center ms-3">
               <div><button class="bg-transparent" id="menu" onclick="toggleMenu()">MENU</button></div>
-              <div id="menu-box" style="display: none;">
-                <a class="ms-3" href="#skills">SKILLS</a>
-                <a class="ms-3" href="#portfolio">PORTFOLIO</a> 
-                <a class="ms-3" href="#contacts">CONTACTS</a>
+              <div id="menu-box" style="display: none;">         
+                 <a class="ms-3" href="#skills">SKILLS</a>
+                 <a class="ms-3" href="#portfolio">PORTFOLIO</a>
+                 <a class="ms-3" href="#contacts">CONTACTS</a>
               </div>
             </div>
-            <div id="hire-me" class="me-5 pe-5"><a target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ...">HIRE ME</a></div>
+            
           </div>
       </div>
     </nav>
+    <div id="hire-me" class="position-fixed"><a target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ...">HIRE ME</a></div>
 
     <main class="p-5"> <!-- MB MB MB CAPIRE COME METTERLI ms-5 me-5--> 
 
@@ -96,7 +97,7 @@
           <span class="paragraph-title" id="skills">My Skills<span class="dot">.</span></span>
         </div>
         <hr>
-        <div class="ms-lg-5">
+        <div class="ms-lg-5 ps-lg-5">
               <div class="row mt-5">
                 <div class="d-sm-flex align-items-center">
                   <div class="d-flex justify-content-center mb-2 col-sm-2"><a class="image-skill-container" id="html-image" target="_blank" href="https://en.wikipedia.org/wiki/HTML"></a></div>
@@ -249,7 +250,7 @@
               
                 <div class="project-description">
                   <h4><strong>The Social Dex</strong></h4>
-                  <p>It's a web application that interfaces with the blockchain. It's possible to register and write posts on Ethereum's Ropsten blockchain.</p>
+                  <p>It's a web application that interfaces with the blockchain. It's possible to register and write posts on the Ethereum's Ropsten blockchain.</p>
                   <div class="mb-4"><strong>Link to the repository and presentation</strong></div>
                   <div class="d-flex align-items-center justify-content-center">
                     <div class="me-3"><a class="image-contact-container img-fluid portfolio-image" id="github-image" target="_blank" href="https://github.com/MatteoBattilani/SocialDex"></a></div>
@@ -266,15 +267,9 @@
                 </div>
               
             </div>
-
-          
+ 
         </div>
  
-
-
-
-       
-      
 
 
       
@@ -293,29 +288,24 @@
       </div>
 
 
-
-
-
-
-
-fare footer
-<br>
-rimpicciolire img profilo quando mobile
-
-<br> mettere immagini a fianco al testo dei paragrafi quando non occupano tutto lo spazio?
-<br> Sistemare dimensioni font footer per oc e per mobile
-
+      GESTIRE MENU IN MODALITA' mobile
+     <br>
+     AGGIUNGERE SOFT SKILLS
+     <br>
+     AGGIUNGERE FILOSOFIA
 
       
     </main>
 
+    <!-- FOOTER SECTION-->
+
     <footer>
        <hr>
        <div class="d-flex justify-content-between">
-        <div>Made with &#10084; by Matteo Battilani</div>
-        <div>Email me at <a target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ..."><strong>matteo.battilani@hotmail.it</strong></a></div> 
+        <div class="text-footer">Made with &#10084; by Matteo Battilani</div>
+        <div class="text-footer">Email me at <a target="_blank" href="mailto:matteo.battilani@hotmail.it?subject=Contact Request&body=Hello Matteo, ..."><strong>matteo.battilani@hotmail.it</strong></a></div> 
        </div>
-      </footer>
+    </footer>
           
 
 

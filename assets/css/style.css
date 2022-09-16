@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- /*border: 1px solid black;*/
+ border: 1px solid black;
 }
 
 a{
@@ -24,19 +24,24 @@ a{
 
 .logo-container{
   display: inline-block;
-  width: 100px;
-  height: 50px;
+  width: 90px;
+  height: 70px;
   background-image: url("/assets/images/logo.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 nav{
-  position:fixed;
-  width: 100%;
+  left: 40px;
 }
 
-nav a, nav button {
+#hire-me{
+  right: 28px;
+  top: 70px;
+}
+
+nav a, nav button, #hire-me a {
   color: #0f1b61;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -49,12 +54,20 @@ nav a, nav button {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-nav a:hover:not(.logo-container), nav button:hover{    
+nav a:hover:not(.logo-container), nav button:hover, #hire-me a:hover{    
   box-shadow: inset 110px 0 0 0 #0f1b61;
   color: white;
 }
 
-
+.menu-container:before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 26px;
+  margin-right: 16px;
+  background: #919795;
+  vertical-align: middle;
+}
 /*--------------------------------FONTS-------------------------------------------*/
 
 .title{
@@ -234,6 +247,14 @@ main hr{
 
 #book-image{
   background-image: url("/assets/images/book.png");
+}
+
+
+
+/*-----------------------------FOOTER-----------------------------*/
+
+.text-footer{
+  font-size: 12px;
 }
 
 
