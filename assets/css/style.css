@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- border: 1px solid black;
+ /*border: 1px solid black; */
 }
 
 a{
@@ -68,6 +68,12 @@ nav a:hover:not(.logo-container), nav button:hover, #hire-me a:hover{
   background: #919795;
   vertical-align: middle;
 }
+
+#nav-mobile a{
+  color: #0F1B61;
+  line-height: 10px;
+}
+
 /*--------------------------------FONTS-------------------------------------------*/
 
 .title{
