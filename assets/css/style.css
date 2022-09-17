@@ -26,7 +26,7 @@ a{
   display: inline-block;
   width: 90px;
   height: 70px;
-  background-image: url("/assets/images/logo.png");
+  background-image: url("./assets/images/logo.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,13 +124,13 @@ main hr{
 }
 
 .dots {
-  background-image: url("/assets/images/point.svg");
+  background-image: url("./assets/images/point.svg");
   background-size: 30px;
   opacity: .6;
 }
 
 .stripes {
-  background-image: url('/assets/images/line.svg');
+  background-image: url('./assets/images/line.svg');
   background-size: 11px;
   /*opacity: .6;*/
 }
@@ -181,57 +181,57 @@ main hr{
 /*skills's logos*/
 
 #html-image{
-  background-image: url("/assets/images/HTML.svg");
+  background-image: url("./assets/images/HTML.svg");
 }
 
 #css-image{
-  background-image: url("/assets/images/CSS.svg");
+  background-image: url("./assets/images/CSS.svg");
 }
 
 #java-image{
-  background-image: url("/assets/images/Java.svg");
+  background-image: url("./assets/images/Java.svg");
 }
 
 #python-image{
-  background-image: url("/assets/images/Python.svg");
+  background-image: url("./assets/images/Python.svg");
 }
 
 #sql-image{
-  background-image: url("/assets/images/275-2753287_sql.png");
+  background-image: url("./assets/images/275-2753287_sql.png");
 }
 
 #superset-image{
-  background-image: url("/assets/images/Superset.png");
+  background-image: url("./assets/images/Superset.png");
   min-width: 100px;
   margin-left: -12px;
   background-size: cover ;
 }
 
 #spring-image{
-  background-image: url("/assets/images/Spring.png");
+  background-image: url("./assets/images/Spring.png");
   max-height: 60px;
 }
 
 #django-image{
-  background-image: url("/assets/images/Django.png");
+  background-image: url("./assets/images/Django.png");
 }
 
 #ethereum-image{
-  background-image: url("/assets/images/Ethereum.svg");
+  background-image: url("./assets/images/Ethereum.svg");
 }
 
 /*contacts' logos*/
 
 #linkedin-image{
-  background-image: url("/assets/images/LinkedIn.svg");
+  background-image: url("./assets/images/LinkedIn.svg");
 }
 
 #gmail-image{
-  background-image: url("/assets/images/Gmail.svg");
+  background-image: url("./assets/images/Gmail.svg");
 }
 
 #github-image{
-  background-image: url("/assets/images/github.svg");
+  background-image: url("./assets/images/github.svg");
 }
 
 
@@ -252,7 +252,7 @@ main hr{
 /*portfolio' images*/
 
 #book-image{
-  background-image: url("/assets/images/book.png");
+  background-image: url("./assets/images/book.png");
 }
 
 
