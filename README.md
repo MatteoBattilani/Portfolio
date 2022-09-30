@@ -8,7 +8,7 @@ A website to present myself to companies and contain all the projects realised.
 2) Profile pic
 3) Link to Social and GitHub
 4) Links to other projects
-5) Mi skills
+5) My skills
 6) A quick way to be contacted
 
 
