@@ -179,20 +179,6 @@ main hr{
 .ethereum {width: 30%; background-color: #8B93B4; border-radius: 30px;}
 
 
-/*contacts' logos*/
-
-#linkedin-image{
-  background-image: url("../images/LinkedIn.svg");
-}
-
-#gmail-image{
-  background-image: url("../images/Gmail.svg");
-}
-
-#github-image{
-  background-image: url("../images/github.svg");
-}
-
 
 
 /*-----------------------------PORTFOLIO-----------------------------*/
@@ -208,11 +194,8 @@ main hr{
   height: 60%;
 }
 
-/*portfolio' images*/
+/*portfolio' headers*/
 
-#book-image{
-  background-image: url("../images/book.png");
-}
 
 .project-container h3{
   font-size: 23px;
