@@ -255,6 +255,18 @@ main hr{
   background-image: url("../images/book.png");
 }
 
+.project-container h3{
+  font-size: 23px;
+}
+
+.project-container h4{
+  font-size: 16px;
+}
+
+.project-container h5{
+  font-size: 16px;
+}
+
 
 
 /*-----------------------------FOOTER-----------------------------*/
