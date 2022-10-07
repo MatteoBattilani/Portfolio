@@ -178,26 +178,6 @@ main hr{
 .superset {width: 80%; background-color: #00CABB; border-radius: 30px;}
 .ethereum {width: 30%; background-color: #8B93B4; border-radius: 30px;}
 
-/*skills's logos*/
-
-#html-image{
-  background-image: url("../images/HTML.svg");
-}
-
-#css-image{
-  background-image: url("../images/CSS.svg");
-}
-
-#java-image{
-  background-image: url("../images/Java.svg");
-}
-
-
-
-
-
-
-
 
 /*contacts' logos*/
 
