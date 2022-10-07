@@ -37,17 +37,16 @@
     max-width: 200px;
   }
 
+  .main-container{
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  
+
 }
 
 
 @media screen and (max-width:995px){
-
-  
-  .main-container{
-  margin: 5px;
-  padding: 10px 10px;
-  background-color: #f3f8fc;
-}
 
 nav{
   left:20px;
@@ -61,6 +60,14 @@ nav{
   display: none;
 }
 
+}
+
+@media only screen and (max-width: 995px) and (min-width: 576px)  {
+  .main-container{
+    margin: 5px;
+    padding: 10px 10px;
+  }
+  
 }
 
 @media only screen and (max-width: 1270px) and (min-width: 576px)  {
