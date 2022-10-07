@@ -192,33 +192,12 @@ main hr{
   background-image: url("../images/Java.svg");
 }
 
-#python-image{
-  background-image: url("../images/Python.svg");
-}
 
-#sql-image{
-  background-image: url("../images/275-2753287_sql.png");
-}
 
-#superset-image{
-  background-image: url("../images/Superset.png");
-  min-width: 100px;
-  margin-left: -12px;
-  background-size: cover ;
-}
 
-#spring-image{
-  background-image: url("../images/Spring.png");
-  max-height: 60px;
-}
 
-#django-image{
-  background-image: url("../images/Django.png");
-}
 
-#ethereum-image{
-  background-image: url("../images/Ethereum.svg");
-}
+
 
 /*contacts' logos*/
 
